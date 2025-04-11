@@ -2,7 +2,6 @@ import Stack from "../src/pilha2.js";
 //QUESTÃO 3. Implemente uma função que troca de lugar o elemento que está no topo da pilha
 //com o elemento que está na base da pilha. Usar apenas uma pilha como auxiliar.
 
-// Função para trocar o topo com a base
 function trocaTopoBase(pilhaOriginal) {
   if (pilhaOriginal.size() <= 1) return; // nada a trocar
 
